@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A527DB126E9BD1300F22E82 /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A527DAC26E9BD1300F22E82 /* TPCircularBuffer+AudioBufferList.c */; };
+		6A527DB226E9BD1300F22E82 /* TPCircularBuffer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6A527DAD26E9BD1300F22E82 /* TPCircularBuffer.podspec */; };
+		6A527DB326E9BD1300F22E82 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 6A527DAE26E9BD1300F22E82 /* README.markdown */; };
+		6A527DB426E9BD1300F22E82 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A527DAF26E9BD1300F22E82 /* TPCircularBuffer.c */; };
+		6A527E8726F3373E00F22E82 /* JYRecordCoordinator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A527E8626F3373E00F22E82 /* JYRecordCoordinator.mm */; };
+		6A527E9026F3376000F22E82 /* JYAudioEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A527E8F26F3376000F22E82 /* JYAudioEncoder.mm */; };
+		6A527EA126FC28A800F22E82 /* JYAudioACCEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A527EA026FC28A800F22E82 /* JYAudioACCEncoder.mm */; };
+		6A527EAD26FC291B00F22E82 /* JYAudioWAVEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A527EAC26FC291B00F22E82 /* JYAudioWAVEncoder.mm */; };
+		6A527EB326FC294900F22E82 /* JYAudioMP3Encoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A527EB226FC294900F22E82 /* JYAudioMP3Encoder.mm */; };
+		6AB5452626CCB47400B23A1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5452526CCB47400B23A1F /* AppDelegate.m */; };
+		6AB5452926CCB47400B23A1F /* SceneDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5452826CCB47400B23A1F /* SceneDelegate.mm */; };
+		6AB5452C26CCB47400B23A1F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5452B26CCB47400B23A1F /* ViewController.mm */; };
+		6AB5452F26CCB47400B23A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5452D26CCB47400B23A1F /* Main.storyboard */; };
+		6AB5453126CCB47600B23A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5453026CCB47600B23A1F /* Assets.xcassets */; };
+		6AB5453426CCB47600B23A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5453226CCB47600B23A1F /* LaunchScreen.storyboard */; };
+		6AB5453726CCB47600B23A1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5453626CCB47600B23A1F /* main.m */; };
+		6AB5454126CCB47700B23A1F /* JYAURecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5454026CCB47700B23A1F /* JYAURecorderTests.m */; };
+		6AB5454C26CCB47700B23A1F /* JYAURecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5454B26CCB47700B23A1F /* JYAURecorderUITests.m */; };
+		6AB5455E26CCB55900B23A1F /* JYAURecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5455D26CCB55900B23A1F /* JYAURecorder.mm */; };
+		6AB5457926CD065A00B23A1F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB5457826CD065A00B23A1F /* AudioToolbox.framework */; };
+		6AB5457B26CD066800B23A1F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB5457A26CD066800B23A1F /* AVFoundation.framework */; };
+		6AB5458126CE42A900B23A1F /* JYAudioPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5458026CE42A900B23A1F /* JYAudioPlayer.mm */; };
+		6AB5458A26CF4D9100B23A1F /* ScopedLock.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5458826CF4D9100B23A1F /* ScopedLock.mm */; };
+		6AB5459626CF8C0700B23A1F /* JYAudioFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5459526CF8C0700B23A1F /* JYAudioFile.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AB5453D26CCB47600B23A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AB5451926CCB47300B23A1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB5452026CCB47400B23A1F;
+			remoteInfo = JYAURecorder;
+		};
+		6AB5454826CCB47700B23A1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AB5451926CCB47300B23A1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB5452026CCB47400B23A1F;
+			remoteInfo = JYAURecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A527DAB26E9BD1300F22E82 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
+		6A527DAC26E9BD1300F22E82 /* TPCircularBuffer+AudioBufferList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "TPCircularBuffer+AudioBufferList.c"; sourceTree = "<group>"; };
+		6A527DAD26E9BD1300F22E82 /* TPCircularBuffer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TPCircularBuffer.podspec; sourceTree = "<group>"; };
+		6A527DAE26E9BD1300F22E82 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		6A527DAF26E9BD1300F22E82 /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
+		6A527DB026E9BD1300F22E82 /* TPCircularBuffer+AudioBufferList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TPCircularBuffer+AudioBufferList.h"; sourceTree = "<group>"; };
+		6A527E8526F3373E00F22E82 /* JYRecordCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYRecordCoordinator.h; sourceTree = "<group>"; };
+		6A527E8626F3373E00F22E82 /* JYRecordCoordinator.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JYRecordCoordinator.mm; sourceTree = "<group>"; };
+		6A527E8E26F3376000F22E82 /* JYAudioEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAudioEncoder.h; sourceTree = "<group>"; };
+		6A527E8F26F3376000F22E82 /* JYAudioEncoder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JYAudioEncoder.mm; sourceTree = "<group>"; };
+		6A527E9A26F5970C00F22E82 /* JYRecorderLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYRecorderLog.h; sourceTree = "<group>"; };
+		6A527E9F26FC28A700F22E82 /* JYAudioACCEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAudioACCEncoder.h; sourceTree = "<group>"; };
+		6A527EA026FC28A800F22E82 /* JYAudioACCEncoder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JYAudioACCEncoder.mm; sourceTree = "<group>"; };
+		6A527EAB26FC291B00F22E82 /* JYAudioWAVEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAudioWAVEncoder.h; sourceTree = "<group>"; };
+		6A527EAC26FC291B00F22E82 /* JYAudioWAVEncoder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JYAudioWAVEncoder.mm; sourceTree = "<group>"; };
+		6A527EB126FC294900F22E82 /* JYAudioMP3Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAudioMP3Encoder.h; sourceTree = "<group>"; };
+		6A527EB226FC294900F22E82 /* JYAudioMP3Encoder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JYAudioMP3Encoder.mm; sourceTree = "<group>"; };
+		6AB5452126CCB47400B23A1F /* JYAURecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYAURecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB5452426CCB47400B23A1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AB5452526CCB47400B23A1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AB5452726CCB47400B23A1F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6AB5452826CCB47400B23A1F /* SceneDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SceneDelegate.mm; sourceTree = "<group>"; };
+		6AB5452A26CCB47400B23A1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6AB5452B26CCB47400B23A1F /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		6AB5452E26CCB47400B23A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AB5453026CCB47600B23A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AB5453326CCB47600B23A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AB5453526CCB47600B23A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AB5453626CCB47600B23A1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AB5453C26CCB47600B23A1F /* JYAURecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYAURecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB5454026CCB47700B23A1F /* JYAURecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYAURecorderTests.m; sourceTree = "<group>"; };
+		6AB5454226CCB47700B23A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AB5454726CCB47700B23A1F /* JYAURecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYAURecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB5454B26CCB47700B23A1F /* JYAURecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYAURecorderUITests.m; sourceTree = "<group>"; };
+		6AB5454D26CCB47700B23A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AB5455C26CCB55900B23A1F /* JYAURecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAURecorder.h; sourceTree = "<group>"; };
+		6AB5455D26CCB55900B23A1F /* JYAURecorder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JYAURecorder.mm; sourceTree = "<group>"; };
+		6AB5457826CD065A00B23A1F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6AB5457A26CD066800B23A1F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6AB5457F26CE42A900B23A1F /* JYAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAudioPlayer.h; sourceTree = "<group>"; };
+		6AB5458026CE42A900B23A1F /* JYAudioPlayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JYAudioPlayer.mm; sourceTree = "<group>"; };
+		6AB5458826CF4D9100B23A1F /* ScopedLock.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ScopedLock.mm; sourceTree = "<group>"; };
+		6AB5458926CF4D9100B23A1F /* ScopedLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScopedLock.h; sourceTree = "<group>"; };
+		6AB5459426CF8C0700B23A1F /* JYAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAudioFile.h; sourceTree = "<group>"; };
+		6AB5459526CF8C0700B23A1F /* JYAudioFile.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JYAudioFile.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AB5451E26CCB47400B23A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB5457B26CD066800B23A1F /* AVFoundation.framework in Frameworks */,
+				6AB5457926CD065A00B23A1F /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB5453926CCB47600B23A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB5454426CCB47700B23A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A527DAA26E9BD1300F22E82 /* TPCircularBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				6A527DAB26E9BD1300F22E82 /* TPCircularBuffer.h */,
+				6A527DAC26E9BD1300F22E82 /* TPCircularBuffer+AudioBufferList.c */,
+				6A527DAD26E9BD1300F22E82 /* TPCircularBuffer.podspec */,
+				6A527DAE26E9BD1300F22E82 /* README.markdown */,
+				6A527DAF26E9BD1300F22E82 /* TPCircularBuffer.c */,
+				6A527DB026E9BD1300F22E82 /* TPCircularBuffer+AudioBufferList.h */,
+			);
+			path = TPCircularBuffer;
+			sourceTree = "<group>";
+		};
+		6A527E8426F3370600F22E82 /* JYRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				6A527E9A26F5970C00F22E82 /* JYRecorderLog.h */,
+				6AB5455C26CCB55900B23A1F /* JYAURecorder.h */,
+				6AB5455D26CCB55900B23A1F /* JYAURecorder.mm */,
+				6AB5459426CF8C0700B23A1F /* JYAudioFile.h */,
+				6AB5459526CF8C0700B23A1F /* JYAudioFile.mm */,
+				6A527E8526F3373E00F22E82 /* JYRecordCoordinator.h */,
+				6A527E8626F3373E00F22E82 /* JYRecordCoordinator.mm */,
+				6A527E9E26FC287A00F22E82 /* JYEncoder */,
+			);
+			path = JYRecorder;
+			sourceTree = "<group>";
+		};
+		6A527E9E26FC287A00F22E82 /* JYEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				6A527E8E26F3376000F22E82 /* JYAudioEncoder.h */,
+				6A527E8F26F3376000F22E82 /* JYAudioEncoder.mm */,
+				6A527E9F26FC28A700F22E82 /* JYAudioACCEncoder.h */,
+				6A527EA026FC28A800F22E82 /* JYAudioACCEncoder.mm */,
+				6A527EAB26FC291B00F22E82 /* JYAudioWAVEncoder.h */,
+				6A527EAC26FC291B00F22E82 /* JYAudioWAVEncoder.mm */,
+				6A527EB126FC294900F22E82 /* JYAudioMP3Encoder.h */,
+				6A527EB226FC294900F22E82 /* JYAudioMP3Encoder.mm */,
+			);
+			path = JYEncoder;
+			sourceTree = "<group>";
+		};
+		6AB5451826CCB47300B23A1F = {
+			isa = PBXGroup;
+			children = (
+				6AB5452326CCB47400B23A1F /* JYAURecorder */,
+				6AB5453F26CCB47700B23A1F /* JYAURecorderTests */,
+				6AB5454A26CCB47700B23A1F /* JYAURecorderUITests */,
+				6AB5452226CCB47400B23A1F /* Products */,
+				6AB5457726CD065A00B23A1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AB5452226CCB47400B23A1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5452126CCB47400B23A1F /* JYAURecorder.app */,
+				6AB5453C26CCB47600B23A1F /* JYAURecorderTests.xctest */,
+				6AB5454726CCB47700B23A1F /* JYAURecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AB5452326CCB47400B23A1F /* JYAURecorder */ = {
+			isa = PBXGroup;
+			children = (
+				6A527DAA26E9BD1300F22E82 /* TPCircularBuffer */,
+				6A527E8426F3370600F22E82 /* JYRecorder */,
+				6AB5458826CF4D9100B23A1F /* ScopedLock.mm */,
+				6AB5458926CF4D9100B23A1F /* ScopedLock.h */,
+				6AB5457F26CE42A900B23A1F /* JYAudioPlayer.h */,
+				6AB5458026CE42A900B23A1F /* JYAudioPlayer.mm */,
+				6AB5452426CCB47400B23A1F /* AppDelegate.h */,
+				6AB5452526CCB47400B23A1F /* AppDelegate.m */,
+				6AB5452726CCB47400B23A1F /* SceneDelegate.h */,
+				6AB5452826CCB47400B23A1F /* SceneDelegate.mm */,
+				6AB5452A26CCB47400B23A1F /* ViewController.h */,
+				6AB5452B26CCB47400B23A1F /* ViewController.mm */,
+				6AB5452D26CCB47400B23A1F /* Main.storyboard */,
+				6AB5453026CCB47600B23A1F /* Assets.xcassets */,
+				6AB5453226CCB47600B23A1F /* LaunchScreen.storyboard */,
+				6AB5453526CCB47600B23A1F /* Info.plist */,
+				6AB5453626CCB47600B23A1F /* main.m */,
+			);
+			path = JYAURecorder;
+			sourceTree = "<group>";
+		};
+		6AB5453F26CCB47700B23A1F /* JYAURecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5454026CCB47700B23A1F /* JYAURecorderTests.m */,
+				6AB5454226CCB47700B23A1F /* Info.plist */,
+			);
+			path = JYAURecorderTests;
+			sourceTree = "<group>";
+		};
+		6AB5454A26CCB47700B23A1F /* JYAURecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5454B26CCB47700B23A1F /* JYAURecorderUITests.m */,
+				6AB5454D26CCB47700B23A1F /* Info.plist */,
+			);
+			path = JYAURecorderUITests;
+			sourceTree = "<group>";
+		};
+		6AB5457726CD065A00B23A1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5457A26CD066800B23A1F /* AVFoundation.framework */,
+				6AB5457826CD065A00B23A1F /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AB5452026CCB47400B23A1F /* JYAURecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB5455026CCB47700B23A1F /* Build configuration list for PBXNativeTarget "JYAURecorder" */;
+			buildPhases = (
+				6AB5451D26CCB47400B23A1F /* Sources */,
+				6AB5451E26CCB47400B23A1F /* Frameworks */,
+				6AB5451F26CCB47400B23A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYAURecorder;
+			productName = JYAURecorder;
+			productReference = 6AB5452126CCB47400B23A1F /* JYAURecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AB5453B26CCB47600B23A1F /* JYAURecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB5455326CCB47700B23A1F /* Build configuration list for PBXNativeTarget "JYAURecorderTests" */;
+			buildPhases = (
+				6AB5453826CCB47600B23A1F /* Sources */,
+				6AB5453926CCB47600B23A1F /* Frameworks */,
+				6AB5453A26CCB47600B23A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AB5453E26CCB47600B23A1F /* PBXTargetDependency */,
+			);
+			name = JYAURecorderTests;
+			productName = JYAURecorderTests;
+			productReference = 6AB5453C26CCB47600B23A1F /* JYAURecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AB5454626CCB47700B23A1F /* JYAURecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB5455626CCB47700B23A1F /* Build configuration list for PBXNativeTarget "JYAURecorderUITests" */;
+			buildPhases = (
+				6AB5454326CCB47700B23A1F /* Sources */,
+				6AB5454426CCB47700B23A1F /* Frameworks */,
+				6AB5454526CCB47700B23A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AB5454926CCB47700B23A1F /* PBXTargetDependency */,
+			);
+			name = JYAURecorderUITests;
+			productName = JYAURecorderUITests;
+			productReference = 6AB5454726CCB47700B23A1F /* JYAURecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AB5451926CCB47300B23A1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6AB5452026CCB47400B23A1F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					6AB5453B26CCB47600B23A1F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6AB5452026CCB47400B23A1F;
+					};
+					6AB5454626CCB47700B23A1F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 6AB5452026CCB47400B23A1F;
+					};
+				};
+			};
+			buildConfigurationList = 6AB5451C26CCB47400B23A1F /* Build configuration list for PBXProject "JYAURecorder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AB5451826CCB47300B23A1F;
+			productRefGroup = 6AB5452226CCB47400B23A1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AB5452026CCB47400B23A1F /* JYAURecorder */,
+				6AB5453B26CCB47600B23A1F /* JYAURecorderTests */,
+				6AB5454626CCB47700B23A1F /* JYAURecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AB5451F26CCB47400B23A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB5453426CCB47600B23A1F /* LaunchScreen.storyboard in Resources */,
+				6A527DB326E9BD1300F22E82 /* README.markdown in Resources */,
+				6AB5453126CCB47600B23A1F /* Assets.xcassets in Resources */,
+				6AB5452F26CCB47400B23A1F /* Main.storyboard in Resources */,
+				6A527DB226E9BD1300F22E82 /* TPCircularBuffer.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB5453A26CCB47600B23A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB5454526CCB47700B23A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AB5451D26CCB47400B23A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A527E9026F3376000F22E82 /* JYAudioEncoder.mm in Sources */,
+				6AB5452C26CCB47400B23A1F /* ViewController.mm in Sources */,
+				6A527EB326FC294900F22E82 /* JYAudioMP3Encoder.mm in Sources */,
+				6AB5458A26CF4D9100B23A1F /* ScopedLock.mm in Sources */,
+				6A527EAD26FC291B00F22E82 /* JYAudioWAVEncoder.mm in Sources */,
+				6AB5452626CCB47400B23A1F /* AppDelegate.m in Sources */,
+				6AB5458126CE42A900B23A1F /* JYAudioPlayer.mm in Sources */,
+				6AB5453726CCB47600B23A1F /* main.m in Sources */,
+				6AB5459626CF8C0700B23A1F /* JYAudioFile.mm in Sources */,
+				6AB5452926CCB47400B23A1F /* SceneDelegate.mm in Sources */,
+				6AB5455E26CCB55900B23A1F /* JYAURecorder.mm in Sources */,
+				6A527DB426E9BD1300F22E82 /* TPCircularBuffer.c in Sources */,
+				6A527E8726F3373E00F22E82 /* JYRecordCoordinator.mm in Sources */,
+				6A527DB126E9BD1300F22E82 /* TPCircularBuffer+AudioBufferList.c in Sources */,
+				6A527EA126FC28A800F22E82 /* JYAudioACCEncoder.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB5453826CCB47600B23A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB5454126CCB47700B23A1F /* JYAURecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB5454326CCB47700B23A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB5454C26CCB47700B23A1F /* JYAURecorderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AB5453E26CCB47600B23A1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AB5452026CCB47400B23A1F /* JYAURecorder */;
+			targetProxy = 6AB5453D26CCB47600B23A1F /* PBXContainerItemProxy */;
+		};
+		6AB5454926CCB47700B23A1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AB5452026CCB47400B23A1F /* JYAURecorder */;
+			targetProxy = 6AB5454826CCB47700B23A1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AB5452D26CCB47400B23A1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB5452E26CCB47400B23A1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AB5453226CCB47600B23A1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB5453326CCB47600B23A1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AB5454E26CCB47700B23A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_GENERATE_MAP_FILE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AB5454F26CCB47700B23A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_GENERATE_MAP_FILE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AB5455126CCB47700B23A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSQPC2FY55;
+				INFOPLIST_FILE = JYAURecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangjy.JYAURecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AB5455226CCB47700B23A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSQPC2FY55;
+				INFOPLIST_FILE = JYAURecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangjy.JYAURecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AB5455426CCB47700B23A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSQPC2FY55;
+				INFOPLIST_FILE = JYAURecorderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingyi.JYAURecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYAURecorder.app/JYAURecorder";
+			};
+			name = Debug;
+		};
+		6AB5455526CCB47700B23A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSQPC2FY55;
+				INFOPLIST_FILE = JYAURecorderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingyi.JYAURecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYAURecorder.app/JYAURecorder";
+			};
+			name = Release;
+		};
+		6AB5455726CCB47700B23A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSQPC2FY55;
+				INFOPLIST_FILE = JYAURecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingyi.JYAURecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JYAURecorder;
+			};
+			name = Debug;
+		};
+		6AB5455826CCB47700B23A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSQPC2FY55;
+				INFOPLIST_FILE = JYAURecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingyi.JYAURecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JYAURecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AB5451C26CCB47400B23A1F /* Build configuration list for PBXProject "JYAURecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB5454E26CCB47700B23A1F /* Debug */,
+				6AB5454F26CCB47700B23A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB5455026CCB47700B23A1F /* Build configuration list for PBXNativeTarget "JYAURecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB5455126CCB47700B23A1F /* Debug */,
+				6AB5455226CCB47700B23A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB5455326CCB47700B23A1F /* Build configuration list for PBXNativeTarget "JYAURecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB5455426CCB47700B23A1F /* Debug */,
+				6AB5455526CCB47700B23A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB5455626CCB47700B23A1F /* Build configuration list for PBXNativeTarget "JYAURecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB5455726CCB47700B23A1F /* Debug */,
+				6AB5455826CCB47700B23A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AB5451926CCB47300B23A1F /* Project object */;
+}
